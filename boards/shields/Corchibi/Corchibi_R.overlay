@@ -10,23 +10,17 @@
 
 &gpio0 {
     status = "okay";
-    sensor_cursor_id {
+    
+    pat9125_cursor_ncs {
         gpio-hog;
         gpios = <4 GPIO_ACTIVE_HIGH>;
         output-high;
     };
-    sensor_scroll_id {
+    
+    pat9125_scroll_ncs {
         gpio-hog;
         gpios = <2 GPIO_ACTIVE_HIGH>;
         output-low;
-    };
-};
-
-&gpio1 {
-    sensor_wakeup {
-        gpio-hog;
-        gpios = <13 GPIO_ACTIVE_HIGH>;
-        output-high;
     };
 };
 
