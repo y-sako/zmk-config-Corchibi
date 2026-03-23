@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 
 / {
     keymap {
@@ -19,7 +20,7 @@
 /* Right: 25 keys */
 &kp BSPC &kp RET &kp QMARK &kp RIGHT
 &kp COLON &kp UP &kp DOWN &kp O
-&kp DOT &kp RIGHT &kp I &kp K
+&kp DOT &kp RIGHT &lt 2 I &kp K
 &kp U &kp J &kp M &kp N4
 &kp H &kp N &mo 3 &kp N8
 &kp P &kp L &kp COMMA &kp Y &kp SPACE
@@ -38,7 +39,7 @@
 
 /* Right: 25 keys */
 &trans &trans &trans &trans
-&trans &trans &trans &trans
+&trans &mkp MB1 &mkp MB3 &mkp MB2
 &trans &trans &trans &trans
 &trans &trans &trans &trans
 &trans &trans &trans &trans

@@ -48,8 +48,16 @@
     status = "okay";
     device = <&trackball_R>;
     input-processors = 
-        // 前回の3倍から1倍（等倍）に変更し、速度を1/3に落としました
+        <&zip_temp_layer 1 2000>,
         <&zip_xy_scaler 1 1>;
+
+    scroll_layer {
+        layers = <2>;
+        input-processors =
+            <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
+            <&zip_xy_to_scroll_mapper>,
+            <&zip_scroll_scaler 1 6>;
+    };
 };
 
 &i2c0 {
@@ -67,8 +75,8 @@
         reg = <0x73>;
         status = "okay";
         motion-gpios = <&gpio1 12 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        res-x-cpi = <1200>;
-        res-y-cpi = <1200>;
+        res-x-cpi = <1000>;
+        res-y-cpi = <1000>;
         zephyr,axis-x = <INPUT_REL_X>;
         zephyr,axis-y = <INPUT_REL_Y>;
     };
