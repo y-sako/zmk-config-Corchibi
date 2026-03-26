@@ -9,6 +9,9 @@ manifest:
     - name: nuovotaka
       url-base: https://github.com/nuovotaka
   projects:
+    - name: zmk-input-processor-report-rate-limit
+      remote: badjeff
+      revision: b056cb1~1
     - name: zmk-pointing-acceleration-alpha
       remote: nuovotaka
       revision: main

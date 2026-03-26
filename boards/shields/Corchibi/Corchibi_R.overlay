@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <input/processors.dtsi>
 #include <behaviors/input_gestures_accel.dtsi>
+#include <input/processors/report_rate_limit.dtsi>
 
 &default_transform {
     col-offset = <6>;
@@ -51,6 +52,7 @@
         status = "okay";
         device = <&trackball_R_scroll>;
         input-processors =
+            <&zip_report_rate_limit 8>,
             <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_scaler 1 6>;
@@ -61,12 +63,14 @@
     status = "okay";
     device = <&trackball_R>;
     input-processors = 
+        <&zip_report_rate_limit 8>,
         <&zip_temp_layer 1 700>,
         <&pointer_accel>;
 
     scroll_layer {
         layers = <2>;
         input-processors =
+            <&zip_report_rate_limit 8>,
             <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_scaler 1 6>;
