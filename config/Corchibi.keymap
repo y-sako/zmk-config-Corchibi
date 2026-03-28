@@ -22,7 +22,7 @@
 
         Mark_Layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp AT_SIGN  &trans  &trans  &kp HASH  &kp TILDE  &kp DOLLAR  &kp COLON  &trans  &trans  &kp MINUS  &trans  &kp LANG1  &trans  &kp EXCL  &trans  &trans  &kp PERCENT  &trans  &trans  &trans  &trans  &trans  &kp RBRC  &trans  &trans  &kp LPAR  &trans  &trans  &kp ASTRK  &kp QUESTION  &kp AMPS  &kp DOUBLE_QUOTES  &trans  &trans  &kp PLUS  &trans  &kp LANG2  &trans  &kp RIGHT_PARENTHESIS  &kp LBRC  &trans  &kp CARET  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp AT_SIGN  &trans  &trans  &kp HASH  &kp TILDE  &kp DOLLAR  &kp COLON  &trans  &trans  &kp MINUS  &trans  &kp LANGUAGE_2  &trans  &kp EXCL  &trans  &trans  &kp PERCENT  &trans  &trans  &trans  &trans  &trans  &kp RBRC  &trans  &trans  &kp LPAR  &trans  &trans  &kp ASTRK  &kp QUESTION  &kp AMPS  &kp DOUBLE_QUOTES  &trans  &trans  &kp PLUS  &trans  &kp LANGUAGE_1  &trans  &kp RIGHT_PARENTHESIS  &kp LBRC  &trans  &kp CARET  &trans
             >;
         };
 
@@ -37,6 +37,5 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 2  &trans  &trans  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 3  &trans  &trans  &bt BT_SEL 2  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &trans
             >;
         };
-
     };
 };
