@@ -10,7 +10,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp TAB  &kp LSHFT  &kp LCTRL  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 2  &kp G  &kp B  &lt 2 TAB  &trans  &kp Q  &kp S  &kp C  &kp T  &lt 1 SPACE  &kp BSPC  &kp RET  &kp UP  &lt 4 DOWN  &kp PIPE  &kp QUESTION  &kp RIGHT  &kp O  &kp DOT  &kp LEFT  &kp I  &kp K  &kp U  &kp J  &kp M  &trans  &kp H  &kp N  &lt 3 ENTER  &trans  &kp P  &kp L  &kp COMMA  &kp Y  &lt 1 BSPC
+&kp ESC  &kp TAB  &kp LSHFT  &kp LCTRL  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 2  &kp G  &kp B  &lt 2 TAB  &trans  &kp Q  &kp S  &kp C  &kp T  &lt 1 SPACE  &kp BSPC  &kp RET  &kp UP  &lt 4 DOWN  &kp PIPE  &kp QUESTION  &kp RIGHT  &kp O  &kp DOT  &kp LEFT  &kp I  &kp K  &kp U  &kp J  &kp M  &trans  &kp H  &kp N  &lt 3 ENTER  &trans  &kp P  &kp L  &kp COMMA  &kp Y  &kp BACKSPACE
             >;
         };
 
@@ -34,9 +34,8 @@
 
         Device_Layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 2  &trans  &trans  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &bt BT_CLR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 2  &trans  &trans  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 3  &trans  &trans  &bt BT_SEL 2  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &trans
             >;
         };
 
-    };
 };
