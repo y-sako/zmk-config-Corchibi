@@ -10,7 +10,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp TAB  &kp LSHFT  &kp LCTRL  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 5  &kp G  &kp B  &lt 2 TAB  &trans  &kp Q  &kp S  &kp C  &kp T  &lt 1 SPACE  &kp BSPC  &kp RET  &kp QMARK  &kp RIGHT  &kp PIPE  &kp UP  &kp DOWN  &kp O  &kp DOT  &kp LEFT  &kp I  &kp K  &kp U  &kp J  &kp M  &trans  &kp H  &kp N  &lt 4 ENTER  &trans  &kp P  &kp L  &kp COMMA  &kp Y  &lt 1 BSPC
+&kp ESC  &kp TAB  &kp LSHFT  &kp LCTRL  &kp A  &kp Z  &kp LGUI  &kp W  &kp X  &kp LALT  &kp E  &kp D  &kp R  &kp F  &kp V  &mo 5  &kp G  &kp B  &lt 2 TAB  &trans  &kp Q  &kp S  &kp C  &kp T  &lt 1 SPACE  &kp BSPC  &kp RET  &kp UP  &lt 4 DOWN  &kp PIPE  &kp QUESTION  &kp RIGHT  &kp O  &kp DOT  &kp LEFT  &kp I  &kp K  &kp U  &kp J  &kp M  &trans  &kp H  &kp N  &lt 3 ENTER  &trans  &kp P  &kp L  &kp COMMA  &kp Y  &lt 1 BSPC
             >;
         };
 
@@ -28,17 +28,17 @@
 
         Number_Layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N2  &trans  &trans  &kp N3  &kp GRAVE  &kp N4  &kp SEMICOLON  &trans  &trans  &kp UNDERSCORE  &trans  &trans  &trans  &kp N1  &trans  &trans  &kp N5  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N9  &trans  &trans  &kp N8  &kp SLASH  &kp N7  &kp SQT  &trans  &trans  &kp EQUAL  &trans  &trans  &trans  &kp N0  &trans  &trans  &kp N6  &trans
+&trans  &trans  &trans  &trans  &trans  &kp C_BRI_DEC  &trans  &kp N2  &kp C_BRI_INC  &trans  &kp N3  &kp GRAVE  &kp N4  &kp SEMICOLON  &kp LG(SPACE)  &trans  &kp UNDERSCORE  &kp LCTRL  &kp LANG1  &trans  &kp N1  &trans  &kp LC(UP)  &kp N5  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE  &kp C_VOL_UP  &kp N9  &kp C_NEXT  &kp C_VOL_DN  &kp N8  &kp SLASH  &kp N7  &kp SQT  &kp C_PREV  &trans  &kp EQUAL  &trans  &kp LANG2  &trans  &kp N0  &trans  &kp C_PP  &kp N6  &trans
             >;
         };
 
-        layer_3 {
+        Device_Layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 2  &trans  &trans  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &bt BT_CLR  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        layer_4 {
+        Scroll_Layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
