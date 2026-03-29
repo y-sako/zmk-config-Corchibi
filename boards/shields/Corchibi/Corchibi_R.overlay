@@ -54,7 +54,7 @@
         device = <&trackball_R_scroll>;
         input-processors =
             <&zip_report_rate_limit 8>,
-            <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
+            /* <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, */
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_scaler 1 24>;
     };
@@ -72,7 +72,7 @@
         layers = <2>;
         input-processors =
             <&zip_report_rate_limit 8>,
-            <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
+            /* <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, */
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_scaler 1 24>;
     };
