@@ -28,7 +28,7 @@
 
         Number_Layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp C_BRI_DEC  &trans  &kp N2  &kp C_BRI_INC  &trans  &kp N3  &kp GRAVE  &kp N4  &kp SEMICOLON  &kp LG(SPACE)  &trans  &kp UNDERSCORE  &kp LCTRL  &kp LANG1  &trans  &kp N1  &trans  &kp LC(UP)  &kp N5  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE  &kp C_VOL_UP  &kp N9  &kp C_NEXT  &kp C_VOL_DN  &kp N8  &kp SLASH  &kp N7  &kp SQT  &kp C_PREV  &trans  &kp EQUAL  &trans  &kp LANG2  &trans  &kp N0  &trans  &kp C_PP  &kp N6  &trans
+&trans  &trans  &trans  &trans  &trans  &kp C_BRI_DEC  &trans  &kp N2  &kp C_BRI_INC  &trans  &kp N3  &kp GRAVE  &kp N4  &kp SEMICOLON  &kp LG(SPACE)  &trans  &kp UNDERSCORE  &kp LCTRL  &kp LANG2  &trans  &kp N1  &trans  &kp LC(UP)  &kp N5  &trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE  &kp C_VOL_UP  &kp N9  &kp C_NEXT  &kp C_VOL_DN  &kp N8  &kp SLASH  &kp N7  &kp SQT  &kp C_PREV  &trans  &kp EQUAL  &trans  &kp LANG1  &trans  &kp N0  &trans  &kp C_PP  &kp N6  &trans
             >;
         };
 
