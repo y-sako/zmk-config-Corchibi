@@ -37,5 +37,11 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 2  &trans  &trans  &bt BT_SEL 3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 3  &trans  &trans  &bt BT_SEL 2  &trans  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0  &trans
             >;
         };
+
+        Auto_Mouse_Layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp ESC  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RIGHT  &trans  &kp RC(UP)  &kp UP  &trans  &mkp LCLK  &kp LEFT  &trans  &trans  &trans  &trans  &trans  &trans  &mkp RCLK  &kp DOWN  &trans  &trans
+            >;
+        };
     };
 };
